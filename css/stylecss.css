@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,h1{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style:none;	
+}
+
+img{
+	border:none;
+	vertical-align:top;	
+}
+
+a{
+	text-decoration:none;	
+}
+
+.wrap{
+	margin:30px auto;
+	width:600px;
+	padding:10px 20px;	
+}
+
+h1{
+	font-size:30px;
+	line-height:60px;	
+}
+
+#pic{
+	width:600px;
+	height:400px;
+	position:relative;
+	background:#000;	
+}
+
+#pic img{
+	width:600px;
+	height:400px;	
+}
+
+#pic a{
+	width:40px;
+	height:40px;
+	position:absolute;
+	border:1px solid #333;
+	filter:alpha(opacity=30);
+	opacity:0.3;
+	top:180px;
+	background:#fff;
+	text-align:center;
+	line-height:40px;
+	color:#000;
+	font-size:26px;	
+	font-weight:bold;
+	cursor:pointer;
+	display:block;
+}
+
+#pic a:hover{
+	filter:alpha(opacity=50);
+	opacity:0.5;	
+}
+
+#span1{
+	left:0;	
+}
+
+#span2{
+	right:0;	
+}
+
+#pic ul{
+	height:40px;
+	width:600px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	text-align:center;
+	line-height:40px;	
+}
+
+#pic li{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	border-radius:50%;
+	margin:0 10px;
+	background:#CCC;
+}
+
+#pic .active{
+	background:#03F;
+}	
